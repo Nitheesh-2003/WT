@@ -1,0 +1,62 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+#phone-container {
+    position: relative;
+}
+#phone-image {
+    max-width: 100%;
+    height: auto;
+}
+.part-description {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 20px rgba(163, 177, 198, 0.6),
+            -10px -10px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    max-width: 700px;
+    word-spacing: 2px;
+    text-align: center;
+    display: none;
+    transition: 3s linear;
+}
+.part-description:target {
+    display: block;
+}
+img{
+    width : 2250px;
+    height : 1500px;
+    margin-top: 20px ;
+    border-radius: 20px;
+    border : 2px solid purple;
+}
+.box{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pointer{
+    width : 530px;
+    height : 10px;
+    background-color: rgb(255, 0, 212);
+    position: absolute;
+    left: 0;
+}
+.pointer1{
+    width : 530px;
+    height : 10px;
+    background-color: rgb(255, 0, 212);
+    position: absolute;
+    right: 0;
+    top : 90px;
+}

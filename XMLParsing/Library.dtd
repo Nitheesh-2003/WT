@@ -1,0 +1,14 @@
+<!DOCTYPE library [
+    <!ELEMENT library (Issued+)>
+    <!ELEMENT Issued (Bkid, BName, BAuthor, Date, details)>
+    <!-- <!ATTLIST Issued to CDATA #REQUIRED> -->
+    <!ELEMENT Bkid (#PCDATA)>
+    <!ELEMENT BName (#PCDATA)>
+    <!ELEMENT BAuthor (#PCDATA)>
+    <!ELEMENT Date (#PCDATA)>
+    
+    <!ELEMENT details (name, id)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+]>
+

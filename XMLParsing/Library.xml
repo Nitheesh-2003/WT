@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "Library.dtd">
+<library>
+	<Issued to="student">
+		<Bkid>1001</Bkid>
+		<BName>Java Programming</BName>
+		<BAuthor>Dhanees</BAuthor>
+		<Date>11/06/2003</Date>
+		<details>
+			<name>Single</name>
+			<id>007</id>
+		</details>	
+	</Issued>
+	<Issued to="student">
+		<Bkid>1002</Bkid>
+		<BName>C++ Programming</BName>
+		<BAuthor>Kumar</BAuthor>
+		<Date>11/06/2003</Date>
+		<details>
+			<name>Live in relationship</name>
+			<id>006</id>
+		</details>	
+	</Issued>
+</library>
+

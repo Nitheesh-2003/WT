@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom,rgb(243, 255, 197),white,rgb(184, 238, 254));
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: rgba(255,255,255,0.4);
+    border-right  : 1px solid rgba(255,255,255,0.2);
+    border-bottom  : 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 5px #646668;
+    border-radius: 15px;
+    margin: auto;
+    padding: 30px;
+}
+.head{
+    margin: auto;
+    font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    display: block;
+    padding: 17px;
+    margin: 15px 0px;
+    width : 100%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background: rgba(255,255,255,0.4);
+    border-right  : 1px solid rgba(255,255,255,0.2);
+    border-bottom  : 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 5px #646668;
+}
+button{
+    cursor: pointer;
+    border : none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background: rgb(1, 74, 177);
+    border-radius: 10px;
+    margin : auto;
+}
+#msg{
+    color : red;
+    text-align: center;
+    font-weight: bold;
+    margin:20px 0 0 0;
+}

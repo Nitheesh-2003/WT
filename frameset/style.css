@@ -1,0 +1,7 @@
+.q-table{
+    border-collapse : collapse;
+    margin : auto;
+}
+.q-table tr,.q-table td,.q-table th{
+    padding : 20px 30px
+}

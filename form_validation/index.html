@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="box">
+        <h4 class="head">Booking Form</h4>
+        <form autocomplete="off" onsubmit="handleSubmit" action="./thankyou.html">
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <input type="text" id="email" name="email" placeholder="Enter valid Email ID">
+            <input type="password" id="password" name="password" placeholder="Enter the password">
+            <input type="number" id="age" name="age" placeholder="Enter your age">
+            <label for="dateOfJourney">Date of Journey:</label>
+            <input type="date" id="dateOfJourney" name="dateOfJourney" >
+            <input type="text" id="destination" name="destination"  placeholder="Destination Place">
+            <button type="submit">Submit</button>
+            <p id="msg"></p>
+        </form>
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>
